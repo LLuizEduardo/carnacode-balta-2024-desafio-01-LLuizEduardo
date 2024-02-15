@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <title>IMC</title>
+</head>
+
+<body>
+
+    <main class="main-ini" id="app">
+        <form method="clicarBotoes()">
+            <div class="titulo">
+                <h1>Cálculo de IMC</h1>
+            </div>
+            <div>
+                <input class="input-text flex" type="number" placeholder="Altura" required>
+                <br>
+                <input class="input-text flex" type="number" placeholder="Peso" required>
+                <br>
+                <input class="input-text flex" type="text" placeholder="Sexo" required>
+            </div>
+            <br>
+            <div>
+                <input class="check-input" type="checkbox" name="idosoCheck" id="idosoCheck">
+                <label class="check-label" for="idosoCheck">Eu tenho 65 anos ou mais</label>
+            </div>
+            <br>
+            <button class="btns button-ini" onclick="clicarBotoes()"><b>Calcular meu IMC</b></button>
+        </form>
+        <br>
+        <button class="btns button-calc" onclick="clicarBotoes()"><b>Entenda o cálculo</b></button>
+    </main>
+
+</body>
+
+<script src="js/app.js"></script>
+
+</html>
