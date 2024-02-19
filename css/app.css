@@ -3,8 +3,8 @@
  }
 
 
- 
-/* .flex-row {
+
+ /* .flex-row {
     flex-direction: row;
 } */
 
@@ -95,13 +95,29 @@
  }
 
  .barr-pesq {
-    margin: auto;
+     margin: auto;
  }
 
-.tb {
-    margin: 15px auto;
-    align-items: center;
-    padding-left: 3%;
-    padding-right: 3%;
-}
+ .tb {
+     margin: 0px auto;
+     align-items: center;
+     width: 343px;
+     height: 77px;
+ }
 
+ tr {
+     margin-top: 40px;
+     display: block;
+ }
+
+ /* --------------------- */
+ .column {
+     float: left;
+     width: 50%;
+ }
+
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
